@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home" android:title="Home" android:icon="@drawable/icon_home"/>
+        <item android:id="@+id/nav_quanlyphieumuon" android:title="Quản lý phiếu mượn" android:icon="@drawable/icon_qlpm"/>
+        <item android:id="@+id/nav_quanlyloaisach" android:title="Quản lý loại sách" android:icon="@drawable/icon_qlls"/>
+        <item android:id="@+id/nav_quanlysach" android:title="Quản lý sách" android:icon="@drawable/icon_quanlysach"/>
+        <item android:id="@+id/nav_quanlythanhvien" android:title="Quản lý thành viên" android:icon="@drawable/icon_membermanger"/>
+    </group>
+
+    <item android:title="Thống kê" >
+        <menu>
+            <item android:id="@+id/nav_top10" android:title="Top 10 mượn nhiều" android:icon="@drawable/icon_top10"/>
+            <item android:id="@+id/nav_doanhthu" android:title="Doanh thu" android:icon="@drawable/icon_doanhthu"/>
+
+        </menu>
+    </item>
+
+    <item android:title="Người dùng">
+        <menu>
+            <item android:id="@+id/nav_addAccount" android:title="Thêm người dùng" android:icon="@drawable/icon_addaccount"/>
+            <item android:id="@+id/nav_changepassword" android:title="Đổi mật khẩu" android:icon="@drawable/icon_changepass"/>
+            <item android:id="@+id/nav_logout" android:title="Đăng xuất" android:icon="@drawable/icon_logout"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="70dp"
+            android:src="@drawable/icon_loaisach"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMaSach"
+                android:text="Ma Sach"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTenLoaiSachItem"
+                android:text="Ten Loai Sach"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTenSachItem"
+                android:text="Ten Sach"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGiaThueSachItem"
+                android:text="Gia thue "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvKhuyenMai"
+                android:text="Khuyến Mãi "/>
+        </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:id="@+id/imgDelSach"
+                android:src="@drawable/icon_remove"/>
+    </LinearLayout>
+</LinearLayout>

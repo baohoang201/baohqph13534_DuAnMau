@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".SplashScreen.LoginActivity">
+
+
+
+   <ImageView
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:src="@drawable/user_login"
+       android:layout_gravity="center"
+       android:layout_marginTop="100dp"
+       />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:layout_marginBottom="10dp"
+        android:textColor="#0F038B"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:hintEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name_login"
+            android:layout_gravity="center"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Tài Khoản"
+            android:maxLines="1"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/black"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_gravity="center"
+            android:layout_width="286dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColorHint="@color/black"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <CheckBox
+        android:layout_marginLeft="70dp"
+        android:id="@+id/checkRemember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu mật khẩu?"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#268EE8"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+      />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:backgroundTintMode="@null"
+        app:lottie_rawRes="@raw/jsback2"
+        />
+</LinearLayout>

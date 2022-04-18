@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreen.SplashScreen">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:backgroundTintMode="@null"
+        app:lottie_rawRes="@raw/jsback3"/>
+
+   <com.airbnb.lottie.LottieAnimationView
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       app:lottie_autoPlay="true"
+       app:lottie_loop="true"
+       android:background="@null"
+       android:backgroundTint="@null"
+       android:backgroundTintMode="@null"
+       app:lottie_rawRes="@raw/splash"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="BookManager "
+        android:textColor="#0F038B"
+        android:textSize="20dp"
+        android:textStyle="bold"
+       />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Quản lý thư viện"
+        android:textColor="#0F038B"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        />
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:backgroundTintMode="@null"
+        app:lottie_rawRes="@raw/jsback3"/>
+
+
+
+</LinearLayout>
